@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-int main(void) {
+int main(void) 
+{
     char n; // Specify '+, -, /, *' as the character
     int a, b;
 
