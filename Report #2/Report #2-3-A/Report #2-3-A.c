@@ -14,7 +14,7 @@ int main(void)
     // Check if the input is within the valid range
     if (s < 0.0 || s > 100.0)
     {
-        printf("Invalid s. Please enter a value between 0.0 and 100.0.\n");
+        printf("Invalid score. Please enter a value between 0.0 and 100.0.\n");
         return 1; // Exit the program if the input is out of range
     }
 
@@ -42,3 +42,4 @@ int main(void)
 
     return 0;
 }
+
