@@ -1,0 +1,3 @@
+﻿  241023-ECP-GCD_LCM_do_while.c
+C:\Users\USER\Documents\GitHub\2024-CJU-ECP\C Lan Practice\241023_ECP\241023-ECP-GCD_LCM_do_while\241023-ECP-GCD_LCM_do_while.c(14,5): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  241023-ECP-GCD_LCM_do_while.vcxproj -> C:\Users\USER\Documents\GitHub\2024-CJU-ECP\C Lan Practice\241023_ECP\241023-ECP-GCD_LCM_do_while\x64\Debug\241023-ECP-GCD_LCM_do_while.exe
