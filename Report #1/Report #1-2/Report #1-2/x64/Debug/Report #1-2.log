@@ -1,0 +1,4 @@
+﻿  Report #1-2.c
+C:\Users\USER\source\repos\Report (14,5): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\USER\source\repos\Report (16,5): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Report #1-2.vcxproj -> C:\Users\USER\source\repos\Report #1-2\x64\Debug\Report #1-2.exe
