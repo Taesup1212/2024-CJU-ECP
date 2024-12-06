@@ -1,3 +1,0 @@
-﻿  241030-ECP_SIN_COS.c
-C:\Users\USER\Documents\GitHub\2024-CJU-ECP\24.10 C Lan Practice\241030_ECP\241030-ECP_SIN_COS\241030-ECP_SIN_COS.c(25,5): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  241030-ECP_SIN_COS.vcxproj -> C:\Users\USER\Documents\GitHub\2024-CJU-ECP\24.10 C Lan Practice\241030_ECP\241030-ECP_SIN_COS\x64\Debug\241030-ECP_SIN_COS.exe

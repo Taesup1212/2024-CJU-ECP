@@ -1,4 +1,0 @@
-﻿  FileName.cpp
-C:\Users\USER\Documents\GitHub\2024-CJU-ECP\24.12 C Lan Practice\241204-Pra1\FileName.cpp(70,15): warning C4244: '인수': 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\USER\Documents\GitHub\2024-CJU-ECP\24.12 C Lan Practice\241204-Pra1\FileName.cpp(86,5): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  241204-Pra1.vcxproj -> C:\Users\USER\Documents\GitHub\2024-CJU-ECP\24.12 C Lan Practice\241204-Pra1\x64\Debug\241204-Pra1.exe
