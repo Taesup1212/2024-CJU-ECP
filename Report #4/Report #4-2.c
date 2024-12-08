@@ -47,14 +47,16 @@ int main()
     // Input the range for selecting numbers
     do
     {
-        printf("[Mean / Variance / Standard Deviation Calculator]\nInput small integer first, and then input big integer. (Negative integers can be used.)\n");
+        printf("[Mean / Variance / Standard Deviation Calculator]\n");
+        printf("Input small integer first, and then input big integer. (Negative integers can be used.)\n");
         printf("\n\nInput small integer: ");
         scanf("%lld", &SI);
         printf("Input big integer: ");
         scanf("%lld", &BI);
         if (SI > BI)
         {
-            printf("\nInvalid range. Please input the small integer first.\n====================================================\n");
+            printf("\nInvalid range. Please input the small integer first.");
+            printf("\n====================================================\n");
         }
     } while (SI > BI);
 
