@@ -76,22 +76,14 @@ int main()
     {
         int index = rand() % TOTAL_NUMBERS;
         selected[i] = numbers[index];
-        printf("%lld ", selected[i]);
+        printf("%lld", selected[i]);
     }
 
-    // Calculate sum
-    sum = CalSum(selected, SELECT_COUNT);
+    sum = CalSum(selected, SELECT_COUNT); // Calculate sum
+    mean = (double)sum / SELECT_COUNT; // Calculate mean
+    variance = CalVar(selected, SELECT_COUNT, mean); // Calculate variance
+    sd = CalStaDev(variance); // Calculate standard deviation
 
-    // Calculate mean
-    mean = (double)sum / SELECT_COUNT;
-
-    // Calculate variance
-    variance = CalVar(selected, SELECT_COUNT, mean);
-
-    // Calculate standard deviation
-    sd = CalStaDev(variance);
-
-    // Display results
     printf("\nSum: %lld", sum);
     printf("\nMean: %.2f", mean);
     printf("\nVariance: %.2f", variance);
