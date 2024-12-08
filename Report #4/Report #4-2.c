@@ -7,7 +7,7 @@
 #define SELECT_COUNT 10   // Number of integers to select
 
 // Function to calculate the sum of an array
-long long CalculateSum(long long* array, int size)
+long long CalSum(long long* array, int size)  // Calculate Sum
 {
     long long sum = 0;
     for (int i = 0; i < size; i++)
@@ -18,7 +18,7 @@ long long CalculateSum(long long* array, int size)
 }
 
 // Function to calculate the variance of an array
-double CalculateVariance(long long* array, int size, double mean)
+double CalVar(long long* array, int size, double mean)  // Calculate Variance
 {
     double variance = 0.0;
     for (int i = 0; i < size; i++)
@@ -29,7 +29,7 @@ double CalculateVariance(long long* array, int size, double mean)
 }
 
 // Function to calculate the standard deviation
-double CalculateStandardDeviation(double variance)
+double CalStaDev(double variance)  // Calculate Standard Deviation 
 {
     return sqrt(variance);
 }
@@ -40,7 +40,7 @@ int main()
     long long selected[SELECT_COUNT]; // Array to store 10 selected integers
     long long SI, BI; // Variables to store range,  // SI : Small Integer, BI : Big Integer
     long long sum = 0;
-    double mean, variance, stdDeviation;
+    double mean, variance, StaDev;  // Standard Deviation
 
     // Initialize random number generator
     srand(time(NULL));
@@ -87,16 +87,16 @@ int main()
     }
 
     // Calculate sum
-    sum = CalculateSum(selected, SELECT_COUNT);
+    sum = CalSum(selected, SELECT_COUNT);
 
     // Calculate mean
     mean = (double)sum / SELECT_COUNT;
 
     // Calculate variance
-    variance = CalculateVariance(selected, SELECT_COUNT, mean);
+    variance = CalVar(selected, SELECT_COUNT, mean);
 
     // Calculate standard deviation
-    stdDeviation = CalculateStandardDeviation(variance);
+    StaDev = CalStaDev(variance);
 
     // Display results
     printf("\n\n\nSelected numbers: ");
@@ -107,7 +107,7 @@ int main()
     printf("\nSum: %lld", sum);
     printf("\nMean: %.2f", mean);
     printf("\nVariance: %.2f", variance);
-    printf("\nStandard Deviation: %.2f\n", stdDeviation);
+    printf("\nStandard Deviation: %.2f\n", StaDev);
 
     return 0;
 }
