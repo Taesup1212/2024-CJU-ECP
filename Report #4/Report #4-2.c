@@ -40,7 +40,7 @@ int main()
     long long selected[SELECT_COUNT]; // Array to store 10 selected integers
     long long SI, BI; // Variables to store range,  // SI : Small Integer, BI : Big Integer
     long long sum = 0;
-    double mean, variance, StaDev;  // Standard Deviation
+    double mean, variance, sd;  // sd: Standard Deviation
 
     // Initialize random number generator
     srand(time(NULL));
@@ -96,7 +96,7 @@ int main()
     variance = CalVar(selected, SELECT_COUNT, mean);
 
     // Calculate standard deviation
-    StaDev = CalStaDev(variance);
+    sd = CalStaDev(variance);
 
     // Display results
     printf("\n\n\nSelected numbers: ");
@@ -107,7 +107,7 @@ int main()
     printf("\nSum: %lld", sum);
     printf("\nMean: %.2f", mean);
     printf("\nVariance: %.2f", variance);
-    printf("\nStandard Deviation: %.2f\n", StaDev);
+    printf("\nStandard Deviation: %.2f\n", sd);
 
     return 0;
 }
