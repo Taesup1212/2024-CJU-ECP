@@ -1,0 +1,9 @@
+Division 1 Average: 65.03
+Division 1 Rank: 10
+
+Division 2 Average: 65.94
+Division 2 Rank: 8
+
+
+
+Overall Average: 65.43

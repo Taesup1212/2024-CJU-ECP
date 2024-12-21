@@ -1,0 +1,10 @@
+ID		Name		Korean		English		Math		Science		Average		Division Rank		Overall Rank
+
+1010		Rogers	98			95			78		100			92.75			1				2
+1014		Howard	80			90			85		70			81.25			2				3
+1013		Watson	74			58			88		97			79.25			3				4
+1011		Bennett	55			74			88		92			77.25			4				5
+1012		Harden	15			87			55		68			56.25			5				11
+1017		Anthony	100			15			16		89			55.00			6				13
+1016		Leonard	16			47			55		90			52.00			7				15
+1015		Durant	15			50			0		70			33.75			8				18
